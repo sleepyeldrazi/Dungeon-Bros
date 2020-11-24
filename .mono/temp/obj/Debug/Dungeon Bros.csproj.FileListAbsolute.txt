@@ -1,0 +1,8 @@
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.csprojAssemblyReference.cache
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfoInputs.cache
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfo.cs
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.csproj.CoreCompileInputs.cache
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\bin\Debug\Dungeon Bros.dll
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\bin\Debug\Dungeon Bros.pdb
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.dll
+C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.pdb
