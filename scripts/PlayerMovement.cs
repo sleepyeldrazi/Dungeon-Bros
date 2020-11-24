@@ -1,9 +1,8 @@
 using Godot;
 using System;
 
-public class Movement : Area2D
+public class PlayerMovement : Area2D
 {
-	[Export] public int speed = 200;
 	[Export] public int tileSize = 64;
 	
 	public Vector2 target = new Vector2();
@@ -12,22 +11,22 @@ public class Movement : Area2D
 	public float offsetX;
 	public float offsetY;
 	public int steps = 0;
-
+	//public Node2D envVariables;
 
 
 	public override void _Ready(){
 		Position = Position.Snapped(Vector2.One * tileSize) + new Vector2(64,64);
 		Position += Vector2.One * tileSize/2;
-		ray = (RayCast2D)GetNode("RayCast2D");
+		ray = (RayCast2D)GetNode("PlayerRay");
+		var envVariables = GetNode("/root/EnvVariables");
 	}
-
 
 
 	public override void _Input(InputEvent @event)
 	{
 		if (@event.IsActionPressed("click"))
 		{
-			GD.Print("Start: " + Position);
+			envVariables.setActionTaken(true);
 			target = GetGlobalMousePosition();
 			offsetX = Position.x - target.x;
 			offsetY = Position.y - target.y;
@@ -45,52 +44,16 @@ public class Movement : Area2D
 				}
 			}
 			move(velocity);
-			GD.Print("  End: " + Position);
 		}
 	}
-
-/*	public override void _PhysicsProcess(float delta)
-	{
-		velocity = Position.DirectionTo(target) * speed;
-		
-		// LookAt(target);
-		if (Position.DistanceTo(target) > 5)
-		{
-			velocity = MoveAndSlide(velocity);
-		}
-	}*/
+	
 	
 	public void move(Vector2 dir){
-		ray.CastTo = dir * 10;
+		ray.CastTo = dir * 32;
 		ray.ForceRaycastUpdate();
 		if (!ray.IsColliding()){
 			Position += dir * tileSize;
 		}
 	}
 	
-/*	
-onready var ray = $RayCast2D
-
-func move(dir):
-	ray.cast_to = inputs[dir] * tile_size
-	ray.force_raycast_update()
-	if !ray.is_colliding():
-		position += inputs[dir] * tile_size
-
-
-
-	public bool isMoving(){
-		return (velocity != Vector2.Zero);
-	}
-	
-	public override void _PhysicsProcess(float delta){
-		if (!isMoving()) return;
-		if (steps == 64) {
-			velocity = new Vector2(0,0);
-			steps = 0;
-			GD.Print(Position);
-		}
-		MoveAndSlide(velocity);
-		steps++;
-	}*/
 }
