@@ -26,7 +26,7 @@ public class World : Node2D
 	public void startBattle(){
 		Popup battle = (Popup)battleDialog.Instance();
 		uiLayer.AddChild(battle);
-		envVariables.setIsMovementAllowed(false);
+		//envVariables.setIsMovementAllowed(false);
 		battle.PopupCentered();
 	}
 
