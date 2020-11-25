@@ -8,29 +8,34 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\konik\\.nuget\\packages\\": {}
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj",
+      "projectUniqueName": "C:\\Users\\Kaloyan\\Documents\\GitHub\\Dungeon-Bros\\Dungeon Bros.csproj",
       "projectName": "Dungeon Bros",
-      "projectPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj",
-      "packagesPath": "C:\\Users\\konik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\.mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\Kaloyan\\Documents\\GitHub\\Dungeon-Bros\\Dungeon Bros.csproj",
+      "packagesPath": "C:\\Users\\Kaloyan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaloyan\\Documents\\GitHub\\Dungeon-Bros\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\konik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kaloyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net472"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
-          "targetAlias": "net472",
           "projectReferences": {}
         }
       },
@@ -41,10 +46,7 @@
       }
     },
     "frameworks": {
-      "net472": {
-        "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
-      }
+      "net472": {}
     }
   }
 }

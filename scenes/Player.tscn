@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/images/warrior.png" type="Texture" id=1]
 [ext_resource path="res://scripts/PlayerMovement.cs" type="Script" id=2]
+[ext_resource path="res://scripts/PlayerStats.cs" type="Script" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -30,3 +31,6 @@ shape = SubResource( 1 )
 
 [node name="PlayerRay" type="RayCast2D" parent="PlayerArea"]
 enabled = true
+
+[node name="PlayerStats" type="Node2D" parent="."]
+script = ExtResource( 3 )
