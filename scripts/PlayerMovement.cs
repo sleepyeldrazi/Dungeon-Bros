@@ -4,14 +4,16 @@ using System;
 public class PlayerMovement : Area2D
 {
 	[Export] public int tileSize = 64;
-	
-	public Vector2 target = new Vector2();
-	public Vector2 velocity = new Vector2();
-	public RayCast2D ray;
 	public float offsetX;
 	public float offsetY;
 	public int steps = 0;
-	//public Node2D envVariables;
+	
+	//TODO: don't like this
+	public Vector2 target = new Vector2();
+	public Vector2 velocity = new Vector2();
+	public RayCast2D ray;
+
+
 
 
 	public override void _Ready(){
@@ -24,7 +26,7 @@ public class PlayerMovement : Area2D
 
 	public override void _Input(InputEvent @event)
 	{
-		if (@event.IsActionPressed("click"))
+		if (@event.IsActionPressed("click") && envVariables.getIsMovementAllowed())
 		{
 			envVariables.setActionTaken(true);
 			target = GetGlobalMousePosition();

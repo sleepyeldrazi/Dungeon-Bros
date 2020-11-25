@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros.csproj": {}
+    "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros.csproj": {
+    "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros.csproj",
+        "projectUniqueName": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj",
         "projectName": "Dungeon Bros",
-        "projectPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros.csproj",
+        "projectPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj",
         "packagesPath": "C:\\Users\\konik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\konik\\AppData\\Roaming\\NuGet\\NuGet.Config"
