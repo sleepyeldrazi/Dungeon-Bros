@@ -27,5 +27,21 @@ public class PlayerStats : Node2D
 	}
 	
 	
+	public void setMP(int num){
+		mp = num;
+	}
+	
+	public int getMP(){
+		return mp;
+	}
+	
+	public void setCoins(int num){
+		coins = num;
+	}
+	
+	public int getCoins(){
+		return coins;
+	}
+	
 
 }

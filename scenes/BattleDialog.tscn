@@ -10,7 +10,15 @@
 [node name="BattleDialog" type="Popup"]
 margin_right = 48.0
 margin_bottom = 40.0
+mouse_filter = 2
 popup_exclusive = true
+
+[node name="Button" type="Button" parent="."]
+margin_left = 459.233
+margin_top = -152.147
+margin_right = 555.233
+margin_bottom = -64.1474
+text = "test1"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -48,6 +56,8 @@ margin_left = -231.521
 margin_top = 155.385
 margin_right = -151.521
 margin_bottom = 235.385
+action_mode = 0
+button_mask = 7
 text = "Attack"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -129,3 +139,5 @@ texture = ExtResource( 4 )
 position = Vector2( 0, -217.037 )
 scale = Vector2( 2, 1 )
 texture = ExtResource( 3 )
+[connection signal="button_down" from="Node2D/Attack" to="Node2D" method="_on_Attack_button_down"]
+[connection signal="pressed" from="Node2D/Attack" to="Node2D" method="_on_Attack_pressed"]

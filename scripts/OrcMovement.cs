@@ -16,7 +16,7 @@ public class OrcMovement : Area2D
 
 	public override void _Ready(){
 		rand = new Random();
-		Position = Position.Snapped(Vector2.One * tileSize) + new Vector2(64*rand.Next(3,19),64*rand.Next(3,9));
+		Position = Position.Snapped(Vector2.One * tileSize) +new Vector2(64*rand.Next(3,19),64*rand.Next(3,9));
 		Position += Vector2.One * tileSize/2;
 		ray = (RayCast2D)GetNode("OrcRay");
 		
@@ -30,7 +30,7 @@ public class OrcMovement : Area2D
 
 	public override void _Input(InputEvent @event)
 	{
-		if (@event.IsActionPressed("click") &&  envVariables.getActionTaken() && envVariables.getIsMovementAllowed())
+		if (envVariables.getActionTaken() && envVariables.getIsMovementAllowed())
 		{
 			envVariables.setActionTaken(false);
 			move(dir[rand.Next(4)]);

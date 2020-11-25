@@ -16,6 +16,12 @@ public class GUI : Control
 		orc = (OrcStats)GetNode("/root/World/Orc/OrcStats");
 		hp = (Label)GetNode("HP");
 		hp.Text = "HP: " + player1.getHP();
+		
+		mp = (Label)GetNode("MP");
+		mp.Text = "MP: " + player1.getHP();
+		
+		coins = (Label)GetNode("Coins");
+		coins.Text = "Coins: " + player1.getHP();
 	}
 
 

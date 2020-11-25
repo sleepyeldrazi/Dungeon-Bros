@@ -5,9 +5,9 @@
 [node name="GUI" type="Control"]
 margin_left = 40.0
 margin_top = 40.0
+mouse_filter = 2
 script = ExtResource( 1 )
 __meta__ = {
-"_edit_group_": true,
 "_edit_use_anchors_": false
 }
 
@@ -36,3 +36,10 @@ text = "Coins:"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Button" type="Button" parent="."]
+margin_left = 4.0
+margin_top = 70.0
+margin_right = 69.0
+margin_bottom = 90.0
+text = "test2"
