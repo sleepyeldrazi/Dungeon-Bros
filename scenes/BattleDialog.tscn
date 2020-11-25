@@ -132,5 +132,4 @@ texture = ExtResource( 4 )
 position = Vector2( 0, -217.037 )
 scale = Vector2( 2, 1 )
 texture = ExtResource( 3 )
-[connection signal="button_down" from="Node2D/Attack" to="Node2D" method="_on_Attack_button_down"]
 [connection signal="pressed" from="Node2D/Attack" to="Node2D" method="_on_Attack_pressed"]

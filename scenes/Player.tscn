@@ -11,6 +11,9 @@ __meta__ = {
 "_edit_group_": true
 }
 
+[node name="PlayerStats" type="Node2D" parent="."]
+script = ExtResource( 3 )
+
 [node name="PlayerArea" type="Area2D" parent="." groups=[
 "Players",
 ]]
@@ -31,6 +34,3 @@ shape = SubResource( 1 )
 
 [node name="PlayerRay" type="RayCast2D" parent="PlayerArea"]
 enabled = true
-
-[node name="PlayerStats" type="Node2D" parent="."]
-script = ExtResource( 3 )

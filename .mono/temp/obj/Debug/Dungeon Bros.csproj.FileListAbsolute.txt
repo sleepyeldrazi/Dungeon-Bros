@@ -1,24 +1,31 @@
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.csprojAssemblyReference.cache
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfoInputs.cache
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfo.cs
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.csproj.CoreCompileInputs.cache
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\bin\Debug\Dungeon Bros.dll
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\bin\Debug\Dungeon Bros.pdb
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.dll
-C:\Users\konik\Documents\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.pdb
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\bin\Debug\Dungeon Bros.dll
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\bin\Debug\Dungeon Bros.pdb
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\obj\Debug\Dungeon Bros.csprojAssemblyReference.cache
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\obj\Debug\Dungeon Bros.csproj.CoreCompileInputs.cache
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfoInputs.cache
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfo.cs
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\obj\Debug\Dungeon Bros.dll
-C:\Users\Kaloyan\Documents\GitHub\Dungeon-Bros\.mono\temp\obj\Debug\Dungeon Bros.pdb
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.csprojAssemblyReference.cache
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfoInputs.cache
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.AssemblyInfo.cs
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.csproj.CoreCompileInputs.cache
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.dll
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\obj\Debug\Dungeon Bros.pdb
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\bin\Debug\Dungeon Bros.dll
-C:\Users\konik\Documents\Dungeon Bros\Dungeon Bros\.mono\temp\bin\Debug\Dungeon Bros.pdb
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.csprojAssemblyReference.cache
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfoInputs.cache
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfo.cs
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.csproj.CoreCompileInputs.cache
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/bin/Debug/Dungeon Bros.dll
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/bin/Debug/Dungeon Bros.pdb
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.dll
+C:/Users/konik/Documents/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.pdb
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/bin/Debug/Dungeon Bros.dll
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/bin/Debug/Dungeon Bros.pdb
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.csprojAssemblyReference.cache
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.csproj.CoreCompileInputs.cache
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfoInputs.cache
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfo.cs
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.dll
+C:/Users/Kaloyan/Documents/GitHub/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.pdb
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.csprojAssemblyReference.cache
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfoInputs.cache
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfo.cs
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.csproj.CoreCompileInputs.cache
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.dll
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/obj/Debug/Dungeon Bros.pdb
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/bin/Debug/Dungeon Bros.dll
+C:/Users/konik/Documents/Dungeon Bros/Dungeon Bros/.mono/temp/bin/Debug/Dungeon Bros.pdb
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.csprojAssemblyReference.cache
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfoInputs.cache
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.AssemblyInfo.cs
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.dll
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/obj/Debug/Dungeon Bros.pdb
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/bin/Debug/Dungeon Bros.dll
+/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/bin/Debug/Dungeon Bros.pdb

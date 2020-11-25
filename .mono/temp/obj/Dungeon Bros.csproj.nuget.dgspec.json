@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj": {}
+    "/home/kaloyann/Documents/Godot/Dungeon-Bros/Dungeon Bros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj": {
+    "/home/kaloyann/Documents/Godot/Dungeon-Bros/Dungeon Bros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj",
+        "projectUniqueName": "/home/kaloyann/Documents/Godot/Dungeon-Bros/Dungeon Bros.csproj",
         "projectName": "Dungeon Bros",
-        "projectPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\Dungeon Bros.csproj",
-        "packagesPath": "C:\\Users\\konik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\konik\\Documents\\Dungeon Bros\\Dungeon Bros\\.mono\\temp\\obj\\",
+        "projectPath": "/home/kaloyann/Documents/Godot/Dungeon-Bros/Dungeon Bros.csproj",
+        "packagesPath": "/home/kaloyann/.nuget/packages/",
+        "outputPath": "/home/kaloyann/Documents/Godot/Dungeon-Bros/.mono/temp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\konik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/kaloyann/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net472": {
-            "targetAlias": "net472",
             "projectReferences": {}
           }
         },
@@ -36,8 +35,14 @@
       },
       "frameworks": {
         "net472": {
-          "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
         }
       }
     }
