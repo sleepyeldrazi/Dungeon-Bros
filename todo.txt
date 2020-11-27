@@ -1,5 +1,6 @@
 Dungeon Bros TODO:
 - make player killable
+- YOU DIED screen
 - inventory ui
 - collect items on ground
 - make and randomize player stats on start

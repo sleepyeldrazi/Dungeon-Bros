@@ -14,14 +14,16 @@ public class GUI : Control
 	{
 		player1 = (PlayerStats)GetNode("/root/World/Player/PlayerStats");
 		orc = (OrcStats)GetNode("/root/World/Orc/OrcStats");
-		hp = (Label)GetNode("HP");
-		hp.Text = "HP: " + player1.getHP();
-		
-		mp = (Label)GetNode("MP");
-		mp.Text = "MP: " + player1.getHP();
-		
+		hp = (Label)GetNode("HP");	
+		mp = (Label)GetNode("MP");	
 		coins = (Label)GetNode("Coins");
-		coins.Text = "Coins: " + player1.getHP();
+		updateStats();
+	}
+	
+	public void updateStats(){
+		hp.Text = "HP: " + player1.getHP();
+		mp.Text = "MP: " + player1.getMP();
+		coins.Text = "Coins: " + player1.getCoins();
 	}
 
 

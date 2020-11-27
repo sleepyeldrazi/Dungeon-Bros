@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/Dead.cs" type="Script" id=1]
+
+[node name="Dead" type="Node2D"]
+scale = Vector2( 3, 3 )
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 536.0
+margin_bottom = 176.0
+text = "YOU DIED!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 221.818
+margin_top = 133.939
+margin_right = 323.818
+margin_bottom = 160.939
+text = "Respawn"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
