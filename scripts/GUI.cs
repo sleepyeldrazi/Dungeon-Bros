@@ -8,15 +8,21 @@ public class GUI : Control
 	public Label hp;
 	public Label mp;
 	public Label coins;
+	public World world;
+	public Popup inv;
 	
 	
 	public override void _Ready()
 	{
+		world = (World)GetNode("/root/World");
 		player1 = (PlayerStats)GetNode("/root/World/Player/PlayerStats");
 		orc = (OrcStats)GetNode("/root/World/Orc/OrcStats");
 		hp = (Label)GetNode("HP");	
 		mp = (Label)GetNode("MP");	
 		coins = (Label)GetNode("Coins");
+		inv = world.getInv();
+		
+		
 		updateStats();
 	}
 	
@@ -27,5 +33,20 @@ public class GUI : Control
 	}
 
 
+	private void _on_Inventory_pressed()
+	{
+ 		
+		inv.PopupCentered();
+		
+	}
+	
+	public void closeInv()
+	{
+		inv.Hide();
+		
+	}
+
 
 }
+
+

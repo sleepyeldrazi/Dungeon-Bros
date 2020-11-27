@@ -4,13 +4,15 @@ using System;
 public class World : Node2D
 {
 	private PackedScene battleDialog = (PackedScene)GD.Load("res://scenes/BattleDialog.tscn");
+	private PackedScene invDialog = (PackedScene)GD.Load("res://scenes/Inventory.tscn");
 	private CanvasLayer uiLayer = new CanvasLayer();
 	private Node player;
 	private PlayerStats plStats;
 	private Node orc;
 	private OrcStats orcStats;
 	private GUI gui;
-	Popup battle;
+	private Popup battle;
+	private Popup inv;
 	
 
 	public override void _Ready()
@@ -22,8 +24,10 @@ public class World : Node2D
 			plStats = player.GetChild<PlayerStats>(0);
 			orcStats = orc.GetChild<OrcStats>(0);
 			battle = (Popup)battleDialog.Instance();
+			inv = (Popup)invDialog.Instance();
 			
 			uiLayer.AddChild(charStats);
+			uiLayer.AddChild(inv);
 			AddChild(player);
 			AddChild(orc);
 			AddChild(uiLayer);
@@ -31,9 +35,7 @@ public class World : Node2D
 			gui = uiLayer.GetChild<GUI>(0);
 	}
 
-	public CanvasLayer getUILayer(){
-		return uiLayer;
-	}
+
 	
 	public void startBattle(){
 		uiLayer.GetChild<GUI>(0).Hide();
@@ -57,4 +59,17 @@ public class World : Node2D
 		envVariables.setIsMovementAllowed(true);
 	}
 
+
+	//Setters and Getters
+	public CanvasLayer getUILayer(){
+		return uiLayer;
+	}
+	
+	public Popup getInv(){
+		return inv;
+	}
+	
+	public GUI getGUI(){
+		return gui;
+	}
 }
