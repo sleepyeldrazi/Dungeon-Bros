@@ -21,7 +21,7 @@ public class GUI : Control
 		mp = (Label)GetNode("MP");	
 		coins = (Label)GetNode("Coins");
 		inv = world.getInv();
-		
+		var envVariables = GetNode("/root/EnvVariables");
 		
 		updateStats();
 	}
@@ -35,7 +35,7 @@ public class GUI : Control
 
 	private void _on_Inventory_pressed()
 	{
- 		
+ 		envVariables.setIsMovementAllowed(false);
 		inv.PopupCentered();
 		
 	}
@@ -45,8 +45,6 @@ public class GUI : Control
 		inv.Hide();
 		
 	}
-
-
 }
 
 

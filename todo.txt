@@ -1,13 +1,10 @@
 Dungeon Bros TODO:
-- make player killable
-- YOU DIED screen
-- inventory ui
 - collect items on ground
 - make and randomize player stats on start
-- random dungeon generation
 - character stat template choice (choose one of three random?)
 - character level up
 - character stats ui
+- fix codebase
 - expand debug dungeon
 - unify dungeon tiles
 - define orc population
