@@ -4,10 +4,25 @@
 [ext_resource path="res://scripts/Inventory.cs" type="Script" id=2]
 
 [node name="Inventory" type="Popup"]
+visible = true
 margin_right = 880.0
 margin_bottom = 780.0
 popup_exclusive = true
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_left = 0.064
+anchor_top = 0.209
+anchor_right = 0.931
+anchor_bottom = 0.942
+margin_left = -0.320004
+margin_top = -0.0200043
+margin_right = -0.280029
+margin_bottom = 0.23999
+columns = 8
 __meta__ = {
 "_edit_use_anchors_": false
 }

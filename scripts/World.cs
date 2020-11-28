@@ -46,7 +46,6 @@ public class World : Node2D
 	
 	public void endBattle(){
 		if(orcStats.getHP() <=0 && plStats.getHP() > 0) {
-			GD.Print("You win!");
 			plStats.setCoins(orcStats.getCoinReward());
 			battle.Hide();
 			RemoveChild(GetNode("Orc"));
